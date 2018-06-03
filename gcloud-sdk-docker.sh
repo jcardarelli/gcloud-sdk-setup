@@ -4,7 +4,7 @@ DOCKER_IMAGE="google/cloud-sdk"
 FILE=$HOME/.profile
 
 # Install docker
-sudo apt-get install docker.io
+sudo apt-get install docker-ce
 
 # Pull the Google Cloud SDK docker image from docker hub 
 # https://hub.docker.com/r/google/cloud-sdk
